@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="MS Web Cyber avatar">
+  <defs>
+    <radialGradient id="bg" cx="0.5" cy="0.42" r="0.65">
+      <stop offset="0" stop-color="#2a1550"/>
+      <stop offset="0.6" stop-color="#140a26"/>
+      <stop offset="1" stop-color="#080310"/>
+    </radialGradient>
+
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+
+    <linearGradient id="hoodie" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#3b0f7a"/>
+    </linearGradient>
+
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1b3d"/>
+      <stop offset="1" stop-color="#170d24"/>
+    </linearGradient>
+
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#67e8f9" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0.10"/>
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glowPurple" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+
+    <clipPath id="circleClip">
+      <circle cx="256" cy="256" r="250"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#circleClip)">
+    <circle cx="256" cy="256" r="250" fill="url(#bg)"/>
+
+    <circle cx="96" cy="120" r="130" fill="url(#glowCyan)"/>
+    <circle cx="430" cy="400" r="150" fill="url(#glowPurple)"/>
+
+    <g fill="#e9d5ff">
+      <circle cx="90" cy="230" r="2" opacity="0.6"/>
+      <circle cx="132" cy="180" r="1.4" opacity="0.5"/>
+      <circle cx="392" cy="150" r="2" opacity="0.6"/>
+      <circle cx="436" cy="214" r="1.4" opacity="0.5"/>
+      <circle cx="370" cy="86" r="1.6" opacity="0.5"/>
+      <circle cx="150" cy="330" r="1.4" opacity="0.35"/>
+      <circle cx="330" cy="470" r="1.6" opacity="0.4"/>
+      <circle cx="60" cy="420" r="1.8" opacity="0.4"/>
+    </g>
+
+    <text x="398" y="132" font-family="'DejaVu Sans Mono', monospace" font-size="38" font-weight="bold" fill="#22d3ee" opacity="0.35">&lt;/&gt;</text>
+    <text x="58" y="452" font-family="'DejaVu Sans Mono', monospace" font-size="34" font-weight="bold" fill="#a855f7" opacity="0.30">{ }</text>
+
+    <ellipse cx="256" cy="374" rx="126" ry="62" fill="#4c1d95" opacity="0.55"/>
+
+    <rect x="226" y="318" width="60" height="74" rx="26" fill="#e0a67c"/>
+
+    <path d="M112 512 C112 408 164 352 256 352 C348 352 400 408 400 512 Z" fill="url(#hoodie)"/>
+    <path d="M150 512 C152 430 176 392 208 372" fill="none" stroke="#a78bfa" stroke-width="5" stroke-linecap="round" opacity="0.45"/>
+    <path d="M362 512 C360 430 336 392 304 372" fill="none" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round" opacity="0.30"/>
+
+    <path d="M196 360 C214 388 234 402 256 402 C278 402 298 388 316 360" fill="none" stroke="#4c1d95" stroke-width="16" stroke-linecap="round"/>
+    <path d="M238 396 L232 436" stroke="#ddd6fe" stroke-width="4" stroke-linecap="round"/>
+    <path d="M274 396 L280 436" stroke="#ddd6fe" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="231" cy="440" r="5" fill="#ddd6fe"/>
+    <circle cx="281" cy="440" r="5" fill="#ddd6fe"/>
+
+    <circle cx="152" cy="256" r="20" fill="#eab189"/>
+    <circle cx="360" cy="256" r="20" fill="#eab189"/>
+
+    <circle cx="256" cy="230" r="110" fill="url(#hair)"/>
+    <ellipse cx="256" cy="262" rx="94" ry="98" fill="#f6c9a3"/>
+
+    <path d="M150 240 C156 186 192 150 256 150 C320 150 356 186 362 240 C342 210 316 196 292 204 C270 211 246 211 224 204 C198 196 170 210 150 240 Z" fill="url(#hair)"/>
+
+    <ellipse cx="186" cy="298" rx="15" ry="7" fill="#f87171" opacity="0.25"/>
+    <ellipse cx="326" cy="298" rx="15" ry="7" fill="#f87171" opacity="0.25"/>
+
+    <rect x="164" y="238" width="78" height="54" rx="18" fill="url(#lens)" stroke="#0f172a" stroke-width="7"/>
+    <rect x="270" y="238" width="78" height="54" rx="18" fill="url(#lens)" stroke="#0f172a" stroke-width="7"/>
+    <path d="M242 262 L270 262" stroke="#0f172a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M164 260 L146 254" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M348 260 L366 254" stroke="#0f172a" stroke-width="6" stroke-linecap="round"/>
+
+    <path d="M178 278 L202 246" stroke="#a5f3fc" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+    <path d="M284 278 L308 246" stroke="#a5f3fc" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+
+    <path d="M188 268 Q203 255 218 268" fill="none" stroke="#3b2416" stroke-width="6" stroke-linecap="round"/>
+    <path d="M294 268 Q309 255 324 268" fill="none" stroke="#3b2416" stroke-width="6" stroke-linecap="round"/>
+
+    <path d="M256 284 Q262 291 268 285" fill="none" stroke="#d99b74" stroke-width="4" stroke-linecap="round"/>
+
+    <path d="M230 306 Q256 328 282 306" fill="none" stroke="#b4553f" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <circle cx="256" cy="256" r="242" fill="none" stroke="url(#ring)" stroke-width="5" opacity="0.9"/>
+</svg>
