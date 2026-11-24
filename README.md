@@ -54,10 +54,6 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Ms-web-cyber&theme=radical&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" alt="GitHub trophies" />
-</div>
-
-<div align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Ms-web-cyber&theme=redical&hide_border=true&area=true" alt="Contribution activity graph" />
 </div>
 
